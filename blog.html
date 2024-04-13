@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="shortcut icon" href="img/Facebook_Logo.png">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Facebook</h1>
+            <nav>
+                <ul>
+                    <li><a href="blog.html">Inicio</a></li>
+                    <li><a href="#" id="logout">Cerrar Sesión</a></li>
+                </ul>
+                <p>Bienvenido, <span id="username-display"></span>!</p>
+            </nav>
+        </header>
+        <section id="post-form">
+            <h2>Publicar</h2>
+            <form id="new-post-form">
+                <input type="text" id="post-title" placeholder="Título" required>
+                <textarea id="post-description" placeholder="Descripción"></textarea>
+                <input type="file" id="post-image" accept="image/*">
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+        <section id="posts-container">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
